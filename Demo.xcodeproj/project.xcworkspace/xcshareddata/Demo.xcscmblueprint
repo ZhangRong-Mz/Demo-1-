@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9DA6039B8CA13E52E22EA88F94B3A9196E3CEA46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9DA6039B8CA13E52E22EA88F94B3A9196E3CEA46" : 0,
+    "127B1196CBAA9CFDC5DCBAC22354E03BD34D75AC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F26E5CDE-2A52-4CD8-83D5-C5C39A16416B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9DA6039B8CA13E52E22EA88F94B3A9196E3CEA46" : "Demo(1)\/",
+    "127B1196CBAA9CFDC5DCBAC22354E03BD34D75AC" : "..\/..\/Mz%202\/bianlidian"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jackson1st\/bianlidian.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "127B1196CBAA9CFDC5DCBAC22354E03BD34D75AC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhjq56\/Demo-1-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9DA6039B8CA13E52E22EA88F94B3A9196E3CEA46"
+    }
+  ]
+}

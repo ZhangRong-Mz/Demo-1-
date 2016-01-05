@@ -195,7 +195,6 @@
 		04CF8F201C144FDB00512979 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CF8EBD1C144FDB00512979 /* libWeChatSDK.a */; };
 		04CF8F231C14502B00512979 /* D3Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF8F221C14502B00512979 /* D3Model.swift */; };
 		04CF8F2A1C14507A00512979 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF8F271C14507A00512979 /* My.storyboard */; };
-		04D6CFE51C336DEF0034E93A /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6CFE41C336DEF0034E93A /* GMStepper.swift */; settings = {ASSET_TAGS = (); }; };
 		04D6CFEA1C33C9730034E93A /* shopViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6CFE91C33C9730034E93A /* shopViewController1.swift */; settings = {ASSET_TAGS = (); }; };
 		04E2B0CE1C2D2CB900DD647A /* shopCartViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2B0CD1C2D2CB900DD647A /* shopCartViewController1.swift */; settings = {ASSET_TAGS = (); }; };
 		04E2B0D01C2D2CD300DD647A /* shopCartViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2B0CF1C2D2CD300DD647A /* shopCartViewController2.swift */; settings = {ASSET_TAGS = (); }; };
@@ -525,7 +524,6 @@
 		04CF8EC01C144FDB00512979 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		04CF8F221C14502B00512979 /* D3Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D3Model.swift; sourceTree = "<group>"; };
 		04CF8F271C14507A00512979 /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
-		04D6CFE41C336DEF0034E93A /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStepper.swift; sourceTree = "<group>"; };
 		04D6CFE91C33C9730034E93A /* shopViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopViewController1.swift; sourceTree = "<group>"; };
 		04E2B0CD1C2D2CB900DD647A /* shopCartViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopCartViewController1.swift; sourceTree = "<group>"; };
 		04E2B0CF1C2D2CD300DD647A /* shopCartViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopCartViewController2.swift; sourceTree = "<group>"; };
@@ -674,7 +672,6 @@
 			isa = PBXGroup;
 			children = (
 				04831B901C30CBAD009EC7CC /* shopCartTableViewCell.swift */,
-				04D6CFE41C336DEF0034E93A /* GMStepper.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1717,7 +1714,6 @@
 				04CF8D601C144DAE00512979 /* Demo.xcdatamodeld in Sources */,
 				960FC0FD1C1560E100F0580D /* ContentView.swift in Sources */,
 				047A5F3B1C145424004FA20F /* DemoViewController.swift in Sources */,
-				04D6CFE51C336DEF0034E93A /* GMStepper.swift in Sources */,
 				04CF8EF51C144FDB00512979 /* ConstraintDescription.swift in Sources */,
 				04E2B0D31C2D392700DD647A /* shopCartViewController1Empty.swift in Sources */,
 				04CF8EFA1C144FDB00512979 /* EdgeInsets.swift in Sources */,
