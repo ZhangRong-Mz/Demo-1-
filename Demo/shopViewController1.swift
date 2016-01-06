@@ -27,16 +27,19 @@ class shopViewController1: UIViewController,UITableViewDelegate,UITableViewDataS
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cellId="shopCell"
-        var cell:shopCartTableViewCell?=tableView.dequeueReusableCellWithIdentifier(cellId) as! shopCartTableViewCell
-        cell?.goodName=Model.defaultModel.shopCart[indexPath.row].itemName!
-        cell?.goodImage=Model.defaultModel.shopCart[indexPath.row].url!
-        cell?.goodPrice=Model.defaultModel.shopCart[indexPath.row].itemSalePrice!
-        cell?.thisGoodNumber=Model.defaultModel.shopCart[indexPath.row].num
-        cell?.select=Model.defaultModel.shopCart[indexPath.row].selected
-        return cell!
+        var cellId="goodCell"
+        var cell=tableView.dequeueReusableCellWithIdentifier(cellId) as! shopCartTableViewCell
+        cell.goodName=Model.defaultModel.shopCart[indexPath.row].itemName!
+        cell.goodImage=Model.defaultModel.shopCart[indexPath.row].url!
+        cell.goodPrice=Model.defaultModel.shopCart[indexPath.row].itemSalePrice!
+        cell.thisGoodNumber=Model.defaultModel.shopCart[indexPath.row].num
+        cell.select=Model.defaultModel.shopCart[indexPath.row].selected
+        return cell
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var goodNumber:Int=0

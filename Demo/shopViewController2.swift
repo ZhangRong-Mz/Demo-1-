@@ -25,7 +25,7 @@ class shopViewController2: UIViewController,UITableViewDelegate,UITableViewDataS
         // Dispose of any resources that can be recreated.
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cellId="shopCell"
+        var cellId="goodCell2"
         var cell:shopCartTableViewCell?=tableView.dequeueReusableCellWithIdentifier(cellId) as! shopCartTableViewCell
         cell?.goodName=Model.defaultModel.shopCart[indexPath.row].itemName!
         cell?.goodImage=Model.defaultModel.shopCart[indexPath.row].url!
